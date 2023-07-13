@@ -1,6 +1,6 @@
 {
-  "name": "express-controllers",
-  "version": "1.0.0",
+  "name": "express-routing-controllers",
+  "version": "1.0.1",
   "engines": {
     "npm": ">=9.0.0",
     "node": ">=18.0.0"
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adborroto/express-controllers.git"
+    "url": "git+https://github.com/adborroto/express-routing-controllers.git"
   },
   "keywords": [
     "express",
@@ -29,9 +29,9 @@
   "author": "adborroto",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adborroto/express-controllers/issues"
+    "url": "https://github.com/adborroto/express-routing-controllerss/issues"
   },
-  "homepage": "https://github.com/adborroto/express-controllers#readme",
+  "homepage": "https://github.com/adborroto/express-routing-controllerss#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
