@@ -1,8 +1,13 @@
 {
   "name": "express-controllers",
   "version": "1.0.0",
+  "engines": {
+    "npm": ">=9.0.0",
+    "node": ">=18.0.0"
+  },
   "description": "To provide a convenient and intuitive way to define and use controllers in an Express.js application using decorators. It aims to simplify the process of building robust and scalable Express APIs by leveraging the power of decorators and providing a structured approach to defining and organizing routes and handlers.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest --coverage --verbose",
     "lint": "eslint . --ext .ts",
