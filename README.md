@@ -6,16 +6,16 @@ With this package, you can easily structure and manage your API endpoints in a m
 
 # Installation
 
-To install express-controllers, you can use npm or yarn:
+To install express-routing-controllers, you can use npm or yarn:
 
 ```shell
-npm install express-controllers
+npm install express-routing-controllers
 ```
 
 or
 
 ```shell
-yarn add express-controllers
+yarn add express-routing-controllers
 ```
 
 # Usage
@@ -31,7 +31,7 @@ const {
   Post,
   Params,
   Body,
-} = require("express-controllers");
+} = require("express-routing-controllers");
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -45,12 +45,12 @@ export class UserController {
 
   @Get("/:id")
   getUser(@Params() params, req, res) {
-    res.send(`Hello user ${params.id}!`);
+    res.send("Hello user " + params.id);
   }
 
   @Post("/")
   createUser(@Body() createUser, req, res) {
-    res.send(`User created: ${createUser.name}`);
+    res.send("User created" + createUser.name);
   }
 }
 
@@ -62,13 +62,13 @@ registerControllers(app, [UserController], {
 });
 
 app.listen(port, () => {
-  console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
+  console.log("⚡️[server]: Server is running at http://localhost:300");
 });
 ```
 
 # Decorators
 
-express-controllers provides the following decorators for defining routes:
+express-routing-controllers provides the following decorators for defining routes:
 
 ## Routes
 

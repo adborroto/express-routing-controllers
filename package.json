@@ -1,6 +1,6 @@
 {
   "name": "express-routing-controllers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "npm": ">=9.0.0",
     "node": ">=18.0.0"
