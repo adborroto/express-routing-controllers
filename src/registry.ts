@@ -20,7 +20,7 @@ export function registerControllers(
 
 function registerController(
   router: Express | Router,
-  controller: new () => any,
+  controller: any,
   options?: Options
 ) {
   const instance = new controller();
